@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+data/tweets_df.rds
+data/tweets_data.rds

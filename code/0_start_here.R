@@ -3,7 +3,7 @@
 # DATA
 # -----------------------------------------------------------------------------
   # Load in tweet IDs and associated pre-computed topics
-tweets <- readRDS("data/tweets_df.rds") #Note that you will need to rehydrate
+tweets <- readRDS("data/tweets_data.rds") #Note that you will need to rehydrate
                                     #using the tweet IDs. THE REMAINDER OF THIS
                                     #REPO ASSUMES YOU HAVE REHYDRATED THE 
                                     #TWEETS.
