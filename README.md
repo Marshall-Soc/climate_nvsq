@@ -1,6 +1,3 @@
-# climate_nvsq
-Repository for Ter-Mkrtchyan and Taylor, forthcoming, NVSQ.
-
 # An Empirical Mapping of Environmental Protection and Conservation Nonprofit Discourse on Social Media: Reproduction Guide
 
 [Ani V. Ter-Mkrtchyan]([https://sociology.nd.edu/people/terence-mcdonnell](https://deptofgov.nmsu.edu/facultydirectory/ani-ter-mkrtchyan.html)) & [Marshall A. Taylor](https://www.marshalltaylor.net)
