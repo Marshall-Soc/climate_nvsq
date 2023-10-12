@@ -10,4 +10,6 @@ pacman::p_load(tidyverse, BTM,
                factoextra, ggpubr,
                lubridate, plm,
                Hmisc, ggcorrplot,
+               tidytext, quanteda,
+               Matrix, slam, tm,
                install = TRUE)

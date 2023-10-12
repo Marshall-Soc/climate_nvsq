@@ -3,7 +3,7 @@
 # DATA
 # -----------------------------------------------------------------------------
   # Load in tweet IDs and associated pre-computed topics
-tweets <- readRDS("data/tweets_data.rds") #Note that you will need to rehydrate
+tweets <- readRDS("data/tweets_df.rds") #Note that you will need to rehydrate
                                     #using the tweet IDs. THE REMAINDER OF THIS
                                     #REPO ASSUMES YOU HAVE REHYDRATED THE 
                                     #TWEETS.
@@ -61,10 +61,26 @@ source("code/3_fig_figure3_4.R")
   #Create Figure 5
 source("code/3_fig_figure5.R")
 
+  #Create Appendix 1 Figure -- Will only work if you have the BTM dataframe,
+    #which you can generate after you rehydrating the raw text of the tweets.
+    #The BTM dataframe itself is generated in 5_extra_btmdf.R below
+# source("code/4_app_figure1.R")
+
 
 # -----------------------------------------------------------------------------
 # EXTRA
 # -----------------------------------------------------------------------------
+  #Load in all pre-computed BTMs (for diagnostics)
+    #You can instead generate the topics yourself wuth the below scripts (after
+    # rehydrating)
+# load("data/all_climate_topics.RData")
+
+  #Create the BTM dataframe (included text preprocessing) -- Will need the 
+    #rehydrated tweets
+# source("data/5_extra_btmdf.R")
+
+  #Generate topic model solutions -- Will beed the btm.df object generated above
+# source("data/5_extra_topics.R")
 
 
 
